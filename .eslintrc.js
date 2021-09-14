@@ -25,7 +25,7 @@ module.exports = {
       //닫히는 > 를 새로운 줄에 적용하고 싶지 않은 경우
       "singleline": "never",
       "multiline": "never"
-    }],  
+    }],
     "vue/html-self-closing": ["error", {
       "html": {
         //빈태그부분에 슬래시 기호 여부
@@ -34,7 +34,7 @@ module.exports = {
         //div같은 내용이 들어가는 태그 사이에 내용이 없으면 닫히는 태그를 쓸건지 여부
         //always: 쓴다, never: 안쓴다
         "normal": "never",
-        //div같은 내용이 들어가는 태그 사이에 내용이 없으면 닫히는 태그를 쓸건지 여부
+        //컴포넌트에 내용이 들어가는 태그 사이에 내용이 없으면 닫히는 태그를 쓸건지 여부
         //always: 쓴다, never: 안쓴다
         "component": "always"
       },
